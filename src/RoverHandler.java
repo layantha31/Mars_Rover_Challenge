@@ -57,6 +57,7 @@ public class RoverHandler {
         } else if (roverPosition.getStartFacing() == 7) {
             finalFace = 'W';
         }
+        //final output
         System.out.println("The final position of the rover " + RoverMain.roverNum + " : " + roverPosition.getRoverX() + " " + roverPosition.getRoverY() + " " + finalFace);
     }
 }
